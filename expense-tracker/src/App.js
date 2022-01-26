@@ -10,7 +10,6 @@ import { GlobalProvider } from './context/GlobalState'
 function App() {
   return (
     <GlobalProvider>
-    <div className="App">
       <h2>Expense Tracker</h2>
       <div className="container">
         <Balance />
@@ -18,7 +17,6 @@ function App() {
         <TransactionList />
         <AddNewTransaction />
       </div>
-    </div>
     </GlobalProvider>
   )
 }
