@@ -1,4 +1,4 @@
-/** @format */
+
 import {GlobalContext} from '../../context/GlobalState';
 import { useContext } from 'react';
 ;
